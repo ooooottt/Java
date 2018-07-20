@@ -22,6 +22,7 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 </head>
 <body>
 
+
 <h1>データ削除</h1>
 
 <form action="/Kakeibo/DeleteResult" method="get">
