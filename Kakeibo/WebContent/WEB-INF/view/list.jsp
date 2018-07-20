@@ -7,7 +7,7 @@
 <title>一覧</title>
 <style>
 
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/Desktop/workspace/Kakeibo/WebContent/IMAGE/水玉%20白青.png');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/水玉%20白青.png');
 background-attachment : fixed;
 background-repeat:repeat;}
 

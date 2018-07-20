@@ -7,7 +7,7 @@
 <title>新規記録</title>
 <style>
 
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/Desktop/workspace/Kakeibo/WebContent/IMAGE/水玉%20緑.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/水玉%20緑.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
