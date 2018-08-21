@@ -13,7 +13,7 @@ background-attachment : fixed;
 background-repeat:repeat;}
 
 p,a{font-family: 'MS Mincho', sans-serif;
-	font-size:25px;
+	font-size:30px;
 	color:#ffffff;}
 
 </style>
