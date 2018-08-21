@@ -15,7 +15,7 @@ h1,h4{font-family: 'MS Mincho', sans-serif;
 color:#ffffff;}
 
 p,a,form{font-family: 'MS Mincho', sans-serif;
-	font-size:25px;
+	font-size:30px;
 	color:#ffffff;}
 
 </style>
