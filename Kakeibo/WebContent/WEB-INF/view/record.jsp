@@ -32,7 +32,7 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 		日付：<input type="text" name="day"><br>
 		内容：<input type="text" name="name"><br>
 		出費･収入：<input type="text" name="price"><br>
-		<input type="submit" value="登録"><br>
+		<input type="submit" value="登録"><br><br>
 	</form>
 
 <a href="/Kakeibo/Delete">削除</a><br>
