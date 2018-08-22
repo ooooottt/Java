@@ -27,7 +27,7 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 
 <form action="/Kakeibo/DeleteResult" method="get">
 		削除ID：<input type="text" name="key"><br><br>
-		<input type="submit" value="削除"><br><br>
+		<input type="submit" value="削除"><br><br><br>
 	</form>
 
 

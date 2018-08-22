@@ -26,7 +26,7 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 
 <form action="/Kakeibo/DetailViewResult" method="get">
 		日付検索：<input type="text" name="key"><br><br>
-		<input type="submit" value="検索"><br><br>
+		<input type="submit" value="検索"><br><br><br>
 	</form>
 
 
