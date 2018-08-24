@@ -24,10 +24,21 @@ p,a{font-family: 'MS Mincho', sans-serif;
 	request.setCharacterEncoding("UTF-8");
 
 	Kakeibo k = (Kakeibo)request.getAttribute("Kakeibo");
+
+	String day = request.getParameter("day");
+	String name = request.getParameter("name");
+	String price = request.getParameter("price");
+
 %>
 
 
-	<p>新規登録 1件</p>
+	<p>以下の内容で新規登録しました。</p><br>
+	<p>日付：<%=day %></p>
+	<p>詳細：<%=name %></p>
+	<p>金額：<%=price %>円</p>
+
+
+
 
 	<a href="/Kakeibo/Record">新規登録へ</a>
 
