@@ -21,5 +21,9 @@ a{font-family: 'MS Mincho', sans-serif;
 
 <a>一覧</a>
 
+<a href="/Kakeibo/Delete">削除</a><br>
+<a href="/Kakeibo/DetailView">詳細検索</a><br>
+<a href="/Kakeibo/Record">新規登録</a>
+
 </body>
 </html>

@@ -36,7 +36,8 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 	</form>
 
 <a href="/Kakeibo/Delete">削除</a><br>
-<a href="/Kakeibo/DetailView">詳細検索</a>
+<a href="/Kakeibo/DetailView">詳細検索</a><br>
+<a href="/Kakeibo/List">一覧表示</a>
 
 </body>
 </html>

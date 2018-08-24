@@ -29,9 +29,9 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 		<input type="submit" value="検索"><br><br><br>
 	</form>
 
-
+<a href="/Kakeibo/Delete">削除</a><br>
 <a href="/Kakeibo/Record">新規登録</a><br>
-<a href="/Kakeibo/Delete">削除</a>
+<a href="/Kakeibo/List">一覧表示</a>
 
 </body>
 </html>
