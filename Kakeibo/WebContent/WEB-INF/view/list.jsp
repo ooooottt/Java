@@ -19,7 +19,7 @@ a{font-family: 'MS Mincho', sans-serif;
 </head>
 <body>
 
-<a href="/Kakeibo/Total">合計</a>
+<a>一覧</a>
 
 </body>
 </html>
