@@ -33,9 +33,9 @@ p,a{font-family: 'MS Mincho', sans-serif;
 
 
 	<p>以下の内容で新規登録しました。</p><br>
-	<p>日付：<%=day %></p>
-	<p>詳細：<%=name %></p>
-	<p>金額：<%=price %>円</p>
+	<p>日付：<%=day%></p>
+	<p>詳細：<%=name%></p>
+	<p>金額：<%=price%>円</p>
 
 
 
