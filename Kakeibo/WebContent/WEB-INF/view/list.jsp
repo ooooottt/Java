@@ -9,7 +9,7 @@
 <title>一覧表示</title>
 <style>
 
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/水玉%20白青.png');
+body{
 background-attachment : fixed;
 background-repeat:repeat;}
 
@@ -17,11 +17,16 @@ a{font-family: 'MS Mincho', sans-serif;
 	font-size:25px;
 	color:#000000;}
 
+h1{font-family: 'MS Mincho', sans-serif;}
+
+table{font-family: 'MS Mincho', sans-serif;
+	   font-size:20px;}
+
 </style>
 </head>
 <body>
 
-<a>一覧</a><br>
+<h1>一覧</h1><br>
 
 
 	<%
@@ -32,12 +37,22 @@ a{font-family: 'MS Mincho', sans-serif;
 	ArrayList<Kakeibo> list = (ArrayList<Kakeibo>)request.getAttribute("param");
 	%>
 
+	<table border="2" align="center">
+	<tr>
+	<th>日付</th>
+	<th>内容</th>
+	<th>金額</th>
+	</tr>
+
 	<%for(int a = 0; a<list.size(); a++){ %>
-	<a><%= list.get(a).getDay() %></a>
-	<a><%= list.get(a).getName() %></a>
-	<a><%= list.get(a).getPrice() %></a><br>
+	<tr>
+	<th><%= list.get(a).getDay() %></th>
+	<th><%= list.get(a).getName() %></th>
+	<th><%= list.get(a).getPrice() %></th>
+	</tr>
 	<%} %>
 
+</table>
 
 
 

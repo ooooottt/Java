@@ -15,7 +15,7 @@ h1{font-family: 'MS Mincho', sans-serif;
 color:#ffffff;}
 
 p,a,form{font-family: 'MS Mincho', sans-serif;
-	font-size:30px;
+	font-size:25px;
 	color:#ffffff;}
 
 </style>
@@ -27,7 +27,7 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 
 <form action="/Kakeibo/DeleteResult" method="get">
 		削除ID：<input type="text" name="key"><br><br>
-		<input type="submit" value="削除"><br><br><br>
+		<input type="submit" value="削除"><br><br>
 	</form>
 
 
