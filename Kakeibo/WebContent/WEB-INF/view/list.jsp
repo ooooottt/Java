@@ -9,7 +9,7 @@
 <title>一覧表示</title>
 <style>
 
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/手書き点.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/点.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
@@ -20,7 +20,7 @@ a{font-family: 'MS Mincho', sans-serif;
 h1{font-family: 'MS Mincho', sans-serif;}
 
 table{font-family: 'MS Mincho', sans-serif;
-	   font-size:20px;}
+	   font-size:25px;}
 
 </style>
 </head>
@@ -37,7 +37,7 @@ table{font-family: 'MS Mincho', sans-serif;
 	ArrayList<Kakeibo> list = (ArrayList<Kakeibo>)request.getAttribute("param");
 	%>
 
-	<table border="2" align="center">
+	<table  border="1" align="center">
 	<tr>
 	<th>日付</th>
 	<th>内容</th>

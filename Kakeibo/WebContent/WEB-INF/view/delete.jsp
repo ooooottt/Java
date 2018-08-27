@@ -7,16 +7,16 @@
 <title>データ削除</title>
 <style>
 
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/水玉%20紫.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/点.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
 h1{font-family: 'MS Mincho', sans-serif;
-color:#ffffff;}
+color:#000000;}
 
 p,a,form{font-family: 'MS Mincho', sans-serif;
 	font-size:25px;
-	color:#ffffff;}
+	color:#000000;}
 
 </style>
 </head>

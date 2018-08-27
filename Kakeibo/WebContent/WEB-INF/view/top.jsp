@@ -13,17 +13,17 @@
 <link rel="stylesheet" type="text/css" href="/TimeTable/css/style.css">
 
 <style>
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/緑横線.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/点.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
 p{font-family: 'MS Mincho', sans-serif;
-	 font-size:30px;
-	 color:lightcyan;}
+	 font-size:25px;
+	 color:#000000;}
 
 a{font-family: 'MS Mincho', sans-serif;
-	 font-size:28px;
-	 color:lightcyan;}
+	 font-size:25px;
+	 color:#000000;}
 
 
 </style>

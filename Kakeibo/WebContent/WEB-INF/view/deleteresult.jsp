@@ -8,13 +8,13 @@
 <title>削除完了</title>
 <style>
 
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/水玉%20紫.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/点.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
 p,a{font-family: 'MS Mincho', sans-serif;
-	font-size:30px;
-	color:#ffffff;}
+	font-size:25px;
+	color:#000000;}
 
 </style>
 </head>

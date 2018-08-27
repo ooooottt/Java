@@ -7,16 +7,19 @@
 <title>新規記録</title>
 <style>
 
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/水玉%20緑.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/点.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
-h1,h4{font-family: 'MS Mincho', sans-serif;
-color:#ffffff;}
+h1{font-family: 'MS Mincho', sans-serif;
+    color:#000000;}
+
+h4{font-family: 'MS Mincho', sans-serif;
+    color:#000000;}
 
 p,a,form{font-family: 'MS Mincho', sans-serif;
-	font-size:30px;
-	color:#ffffff;}
+	font-size:25px;
+     color:#000000;}
 
 </style>
 </head>
