@@ -33,8 +33,9 @@ public class List extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+		request.setCharacterEncoding("UTF-8");
 		ArrayList<Kakeibo> list = KakeiboDao.searchTable();
-		request.setAttribute("class", list);
+		request.setAttribute("param", list);
 
 		String view = "/WEB-INF/view/list.jsp";
 		RequestDispatcher dispatcher = request.getRequestDispatcher(view);

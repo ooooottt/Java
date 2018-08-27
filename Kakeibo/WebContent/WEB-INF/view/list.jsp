@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="dto.Kakeibo" %>
+<%@page import="java.util.ArrayList"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,7 +21,25 @@ a{font-family: 'MS Mincho', sans-serif;
 </head>
 <body>
 
-<a>一覧</a>
+<a>一覧</a><br>
+
+
+	<%
+
+
+	request.setCharacterEncoding("UTF-8");
+	@SuppressWarnings("unchecked")
+	ArrayList<Kakeibo> list = (ArrayList<Kakeibo>)request.getAttribute("param");
+	%>
+
+	<%for(int a = 0; a<list.size(); a++){ %>
+	<a><%= list.get(a).getDay() %></a>
+	<a><%= list.get(a).getName() %></a>
+	<a><%= list.get(a).getPrice() %></a><br>
+	<%} %>
+
+
+
 
 <a href="/Kakeibo/Delete">削除</a><br>
 <a href="/Kakeibo/DetailView">詳細検索</a><br>

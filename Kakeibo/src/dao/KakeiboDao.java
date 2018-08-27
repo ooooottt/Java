@@ -12,7 +12,7 @@ import dto.Kakeibo;
 	public class KakeiboDao {
 
 		public static ArrayList<Kakeibo> searchTable() {
-			ArrayList<Kakeibo> list = new ArrayList<>();
+			ArrayList<Kakeibo> list = new ArrayList<Kakeibo>();
 
 			Connection con = null;
 			PreparedStatement ps = null;
@@ -29,7 +29,7 @@ import dto.Kakeibo;
 						"weeknd0216");
 
 				//③SQL文を作成する
-				String sql = "SELECT * FROM KAKEIBO;";
+				String sql = "SELECT DAY,NAME,PRICE FROM KAKEIBO;";
 
 				//④SQL文を実行するための準備をする
 				ps = con.prepareStatement(sql);
@@ -225,7 +225,7 @@ import dto.Kakeibo;
 					"root",
 					"weeknd0216");
 
-			String sql = "DELETE FROM KAKEIBO WHERE DAY = ?;";
+			String sql = "DELETE FROM KAKEIBO WHERE DAY = (?);";
 
 			pstmt = con.prepareStatement(sql);
 			pstmt.setInt(1, key);
