@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import dao.KakeiboDao;
+import dto.Kakeibo;
 
 /**
  * Servlet implementation class DeleteResult
@@ -34,6 +35,10 @@ public class DeleteResult extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		String key = request.getParameter("key");
 		int keyN = Integer.parseInt(key);
+
+		Kakeibo result = KakeiboDao.DetailView(keyN);
+
+		request.setAttribute("Kakeibo", result);
 
 		KakeiboDao.Delete(keyN);
 

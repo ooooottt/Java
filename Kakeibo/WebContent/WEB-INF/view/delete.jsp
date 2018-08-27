@@ -7,7 +7,7 @@
 <title>データ削除</title>
 <style>
 
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/点.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/薄水色丸.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
@@ -26,7 +26,7 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 <h1>データ削除</h1>
 
 <form action="/Kakeibo/DeleteResult" method="get">
-		削除ID：<input type="text" name="key"><br><br>
+		削除する日付：<input type="text" name="key"><br><br>
 		<input type="submit" value="削除"><br><br>
 	</form>
 

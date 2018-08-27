@@ -13,7 +13,7 @@
 <link rel="stylesheet" type="text/css" href="/TimeTable/css/style.css">
 
 <style>
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/点.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/薄緑丸.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
@@ -36,6 +36,7 @@ a{font-family: 'MS Mincho', sans-serif;
 <a href="/Kakeibo/Delete">削除へ</a><br>
 <a href="/Kakeibo/DetailView">詳細検索へ</a><br>
 <a href="/Kakeibo/Record">新規登録へ</a><br>
+<a href="/Kakeibo/List">一覧表示へ</a><br>
 <a href="/Kakeibo/Logout">ログアウト</a>
 
 <%}else{ %>

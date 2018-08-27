@@ -11,7 +11,7 @@
 
 
 <style>
-body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/点.jpg');
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/薄緑丸.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
