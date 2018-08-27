@@ -9,7 +9,7 @@
 <title>一覧表示</title>
 <style>
 
-body{
+body{background-image: url('file:///C:/Users/Ogasawara%20Takumi/git/Java/Kakeibo/WebContent/IMAGE/手書き点.jpg');
 background-attachment : fixed;
 background-repeat:repeat;}
 
