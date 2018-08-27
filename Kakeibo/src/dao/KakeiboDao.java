@@ -29,7 +29,7 @@ import dto.Kakeibo;
 						"weeknd0216");
 
 				//③SQL文を作成する
-				String sql = "SELECT DAY,NAME,PRICE FROM KAKEIBO;";
+				String sql = "SELECT * FROM KAKEIBO;";
 
 				//④SQL文を実行するための準備をする
 				ps = con.prepareStatement(sql);
