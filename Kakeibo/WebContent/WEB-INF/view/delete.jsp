@@ -33,7 +33,8 @@ p,a,form{font-family: 'MS Mincho', sans-serif;
 
 <a href="/Kakeibo/DetailView">詳細検索</a><br>
 <a href="/Kakeibo/Record">新規登録</a><br>
-<a href="/Kakeibo/List">一覧表示</a>
+<a href="/Kakeibo/List">一覧表示</a><br>
+<a href="/Kakeibo/Logout">ログアウト</a>
 
 
 </body>
