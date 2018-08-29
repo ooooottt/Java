@@ -30,22 +30,20 @@ table{font-family: 'MS Mincho', sans-serif;
 
 
 	<%
-
-
 	request.setCharacterEncoding("UTF-8");
 	@SuppressWarnings("unchecked")
 	ArrayList<Kakeibo> list = (ArrayList<Kakeibo>)request.getAttribute("param");
 	%>
 
-	<table  border="1" align="center">
-	<tr>
+	<table  border="1"  align="center">
+	<tr bgcolor="#f0f8ff">
 	<th>日付</th>
 	<th>内容</th>
 	<th>金額</th>
 	</tr>
 
 	<%for(int a = 0; a<list.size(); a++){ %>
-	<tr>
+	<tr bgcolor="#f0f8ff">
 	<th><%= list.get(a).getDay() %></th>
 	<th><%= list.get(a).getName() %></th>
 	<th><%= list.get(a).getPrice() %></th>
