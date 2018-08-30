@@ -46,7 +46,7 @@ table{font-family: 'MS Mincho', sans-serif;
 	<tr bgcolor="#f0f8ff">
 	<th><%= list.get(a).getDay() %></th>
 	<th><%= list.get(a).getName() %></th>
-	<th><%= list.get(a).getPrice() %></th>
+	<th><%= list.get(a).getPrice() %>円</th>
 	</tr>
 	<%} %>
 
